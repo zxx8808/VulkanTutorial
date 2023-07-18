@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\be7fac7b5daeb7d45dcc8aa33b5e88b6\shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\e02c46f0b7788282f506550611097038\frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\df1fbe146b191e5dde5e96aa82870c78\22_descriptor_layout_shader.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\22_descriptor_layout_shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{23C74BEA-AE65-32E5-9C9F-872781D0CD6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

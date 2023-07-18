@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9714F07A-CD6F-399D-8460-4A8E27079254}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code -BE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build --check-stamp-file E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindVulkan.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\scripts\buildsystems\vcpkg.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code -BE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build --check-stamp-file E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindVulkan.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\scripts\buildsystems\vcpkg.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code -BE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build --check-stamp-file E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindVulkan.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\scripts\buildsystems\vcpkg.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code -BE:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build --check-stamp-file E:/BaiduSyncdisk/software/2.CG/Vulkan/VulkanTutorial/code/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\FindVulkan.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-config.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\installed\x64-windows\share\tinyobjloader\tinyobjloader-targets.cmake;E:\BaiduSyncdisk\software\1.C++\code\vcpkg\scripts\buildsystems\vcpkg.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\ZERO_CHECK.vcxproj">
+      <Project>{0143B0C5-D6A9-3432-ACAB-C095EFDB2A2E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\00_base_code.vcxproj">
+      <Project>{78AA9509-FA38-3EC0-B178-77C593FE3F27}</Project>
+      <Name>00_base_code</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\01_instance_creation.vcxproj">
+      <Project>{0D3B51D9-25C5-36C5-AB4C-3572DC869CF3}</Project>
+      <Name>01_instance_creation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\02_validation_layers.vcxproj">
+      <Project>{0A77EE49-F253-3222-897A-B941F2B743BF}</Project>
+      <Name>02_validation_layers</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\03_physical_device_selection.vcxproj">
+      <Project>{A5FA2774-7C8E-3BC7-A74E-D49950D806F2}</Project>
+      <Name>03_physical_device_selection</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\04_logical_device.vcxproj">
+      <Project>{6211D530-458E-36E6-B4C2-23D45466C286}</Project>
+      <Name>04_logical_device</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\05_window_surface.vcxproj">
+      <Project>{748B0134-4B69-3F28-86F9-76FBA61EC41F}</Project>
+      <Name>05_window_surface</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\06_swap_chain_creation.vcxproj">
+      <Project>{2316B62E-5F84-3AE8-8780-749ED332A09A}</Project>
+      <Name>06_swap_chain_creation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\07_image_views.vcxproj">
+      <Project>{3AB92973-5209-37CF-908D-FBC586409BF3}</Project>
+      <Name>07_image_views</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\08_graphics_pipeline.vcxproj">
+      <Project>{BD8245B6-3DC7-3F8A-A83B-2D93F5B0B261}</Project>
+      <Name>08_graphics_pipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\09_shader_modules.vcxproj">
+      <Project>{79EB1690-4D05-3D78-B2D0-038BA5990978}</Project>
+      <Name>09_shader_modules</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\10_fixed_functions.vcxproj">
+      <Project>{547B5905-9E70-3167-8D8A-D7246684442F}</Project>
+      <Name>10_fixed_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\11_render_passes.vcxproj">
+      <Project>{C284E23D-FF6D-3FDD-AC7A-C1440C4837A6}</Project>
+      <Name>11_render_passes</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\12_graphics_pipeline_complete.vcxproj">
+      <Project>{D85B90EC-CF81-378E-85CD-75BF7BFA202A}</Project>
+      <Name>12_graphics_pipeline_complete</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\13_framebuffers.vcxproj">
+      <Project>{D593C7E1-F104-3A13-8057-332331688963}</Project>
+      <Name>13_framebuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\14_command_buffers.vcxproj">
+      <Project>{BE9FBCDB-59F9-3602-82AA-E8F3AE1A2BA8}</Project>
+      <Name>14_command_buffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\15_hello_triangle.vcxproj">
+      <Project>{9DBF3497-7EF0-35A2-B244-FCAE3C4E6D33}</Project>
+      <Name>15_hello_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\16_frames_in_flight.vcxproj">
+      <Project>{9B8C34B6-A0CC-31D9-99D2-F9676CD32933}</Project>
+      <Name>16_frames_in_flight</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\17_swap_chain_recreation.vcxproj">
+      <Project>{D84B7FA0-BA58-35FA-8AFA-149D8B00CF89}</Project>
+      <Name>17_swap_chain_recreation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\18_vertex_input.vcxproj">
+      <Project>{13FCB51E-8BAF-3C62-8FD3-751DA9E3A3FD}</Project>
+      <Name>18_vertex_input</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\19_vertex_buffer.vcxproj">
+      <Project>{F6971511-FECE-3274-B75B-F7EEC75D89C9}</Project>
+      <Name>19_vertex_buffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\20_staging_buffer.vcxproj">
+      <Project>{73E429D3-4DBC-3D1B-96F8-EBE0040267B0}</Project>
+      <Name>20_staging_buffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\21_index_buffer.vcxproj">
+      <Project>{57E8BE07-D451-3446-8085-148CC3FFEE8D}</Project>
+      <Name>21_index_buffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\22_descriptor_layout.vcxproj">
+      <Project>{C4C69B97-C86A-3701-858E-01835FC93233}</Project>
+      <Name>22_descriptor_layout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\23_descriptor_sets.vcxproj">
+      <Project>{231D9D75-BAAD-30A5-ABD0-4086C9A001E2}</Project>
+      <Name>23_descriptor_sets</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\24_texture_image.vcxproj">
+      <Project>{1C41222D-4EB3-39EB-90BB-010C47148C11}</Project>
+      <Name>24_texture_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\25_sampler.vcxproj">
+      <Project>{6F9606A5-4956-35BA-9074-66F148ADAF21}</Project>
+      <Name>25_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\26_texture_mapping.vcxproj">
+      <Project>{939D5D23-B3BC-330F-B8CF-2842A7EC1DFA}</Project>
+      <Name>26_texture_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\27_depth_buffering.vcxproj">
+      <Project>{605A47E5-BD4C-3756-9F3A-5A75ECDFD58B}</Project>
+      <Name>27_depth_buffering</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\28_model_loading.vcxproj">
+      <Project>{C1EA66A0-53A9-3E85-9278-463C8218D4FA}</Project>
+      <Name>28_model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\29_mipmapping.vcxproj">
+      <Project>{C22A5DAF-2F66-32D8-A107-75479D483BCC}</Project>
+      <Name>29_mipmapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\30_multisampling.vcxproj">
+      <Project>{44A3895E-E06B-3FDD-9CAA-EDD87742A3EB}</Project>
+      <Name>30_multisampling</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\BaiduSyncdisk\software\2.CG\Vulkan\VulkanTutorial\code\build\31_compute_shader.vcxproj">
+      <Project>{0D73E220-5237-3ECB-9C45-C7047D2B9592}</Project>
+      <Name>31_compute_shader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
